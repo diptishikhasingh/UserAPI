@@ -3,6 +3,12 @@ Feature: User Feature with Basic Authorization
   Background: 
     Given User sets Basic Authorization
 
+	@positive
+  Scenario: Check if user is able to retrieve all the available user with valid endpoint
+    Given User creates GET Request
+    When User sends HTTPS request with valid endpoint
+    Then User receives status 200 OK with response body
+
   @positive
   Scenario Outline: Check if user able to create a new user with valid endpoint and request body
     Given User creates POST request with valid endpoint and request body
@@ -53,3 +59,4 @@ Feature: User Feature with Basic Authorization
     Given User creates POST request with valid endpoint and invalid method
     When User send invalid HTTPS Request with endpoint and request body
     Then User should get the Status Code 405 Method Not Allowed
+  
