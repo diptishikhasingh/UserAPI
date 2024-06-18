@@ -59,4 +59,15 @@ Feature: User Feature with Basic Authorization
     Given User creates POST request with valid endpoint and invalid method
     When User send invalid HTTPS Request with endpoint and request body
     Then User should get the Status Code 405 Method Not Allowed
-  
+
+    
+@Positive_Put_Request
+Scenario Outline: Check if user is able to update an existing userid with mandatory request body & with valid endpoint 
+Given User creates PUT request with valid endpoint and request body
+When User sends HTTPS Request with endpoint from given "<ScenarioName>" and "<SheetName>"
+Then User receives "<Status>" and "<Message>" with response body
+
+ Examples: 
+      | ScenarioName                                                            | SheetName | Status | Message |
+      | Update user by valid userid and mandatory and additional fields         | Put       |    200 | Okay |
+      | update user by valid userid and existing mandatory and additional fields| Put       |    201 | created |
