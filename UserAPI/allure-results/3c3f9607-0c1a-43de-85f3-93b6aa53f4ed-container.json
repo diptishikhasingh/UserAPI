@@ -1,0 +1,1 @@
+{"uuid":"3c3f9607-0c1a-43de-85f3-93b6aa53f4ed","name":"Scenario: Check if user is able to retrieve all the available user with valid endpoint","children":["a2dd3e89-82f2-42d1-a06b-b55f90d0dd0c"],"befores":[],"afters":[],"start":1718661448534,"stop":1718661451268}

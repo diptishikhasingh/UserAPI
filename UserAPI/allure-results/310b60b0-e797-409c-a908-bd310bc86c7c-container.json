@@ -1,0 +1,1 @@
+{"uuid":"310b60b0-e797-409c-a908-bd310bc86c7c","name":"Scenario: Check if user is able to create a user with valid URL and invalid endpoint","children":["fefc9dc3-c8a3-4fc7-bec3-1271079ae416"],"befores":[],"afters":[],"start":1718658842839,"stop":1718658842845}

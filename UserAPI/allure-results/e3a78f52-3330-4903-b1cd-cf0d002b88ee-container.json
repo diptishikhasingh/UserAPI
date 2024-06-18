@@ -1,0 +1,1 @@
+{"uuid":"e3a78f52-3330-4903-b1cd-cf0d002b88ee","name":"Scenario Outline: Check if user is able to create user with invalid values in request body","children":["d492f59b-582a-4d83-8893-0d1262da0344"],"befores":[],"afters":[],"start":1718658842639,"stop":1718658842652}

@@ -1,0 +1,1 @@
+{"uuid":"563a78d8-d88a-4516-b5b4-190a64da9add","name":"Scenario: Check if user is able to create a user with valid endpoint and invalid method","children":["f6ac7df2-87e5-4061-85a2-47060a9734f6"],"befores":[],"afters":[],"start":1718659102368,"stop":1718659102384}
