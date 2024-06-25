@@ -1,0 +1,54 @@
+[
+    {
+        "1": null,
+        "user_first_name": "Sam",
+        "user_last_name": "Bahadur",
+        "user_contact_number": 3400093465,
+        "user_email_id": "sb1@gmail.com",
+        "plotNumber": "A-51",
+        "street": "Foresthill",
+        "state": "Texas",
+        "country": "USA",
+        "zipCode": 60741,
+        "": null
+    },
+    {
+        "1": null,
+        "user_first_name": "SamTwo",
+        "user_last_name": null,
+        "user_contact_number": 9837602987,
+        "user_email_id": "pm1@gmail.com",
+        "plotNumber": null,
+        "street": null,
+        "state": null,
+        "country": null,
+        "zipCode": null,
+        "": null
+    },
+    {
+        "1": null,
+        "user_first_name": "SamThree",
+        "user_last_name": "MTwo",
+        "user_contact_number": "as12",
+        "user_email_id": "pm2@gmail.com",
+        "plotNumber": null,
+        "street": null,
+        "state": null,
+        "country": null,
+        "zipCode": null,
+        "": null
+    },
+    {
+        "1": null,
+        "user_first_name": "Sam",
+        "user_last_name": "Bahadur",
+        "user_contact_number": 3400093465,
+        "user_email_id": "sb1@gmail.com",
+        "plotNumber": "A-51",
+        "street": "Foresthill",
+        "state": "Texas",
+        "country": "USA",
+        "zipCode": 60741,
+        "": null
+    }
+]
